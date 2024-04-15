@@ -8,5 +8,11 @@
     "example"
   ],
   "website": "http://github.com/heroku/go-getting-started",
-  "repository": "http://github.com/heroku/go-getting-started"
+  "repository": "http://github.com/heroku/go-getting-started",
+  "env": {
+    "SPRETTUR_URL": {
+      "description": "url for sprettur",
+      "value": "https://sprettur-staging.herokuapp.com/sprettur"
+    }
+  }
 }
